@@ -419,7 +419,7 @@
             position: absolute;
             right: 20px;
             top: 20px;
-            font-size: 2.5em;
+            font-size: 2.2em;
             cursor: pointer;
             color: white;
             z-index: 10;
@@ -431,7 +431,9 @@
             background: rgba(0, 0, 0, 0.5);
             border-radius: 50%;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            line-height: 1;
+            line-height: 0;
+            padding: 0;
+            margin: 0;
         }
 
         .product-detail-close:hover {
@@ -723,13 +725,13 @@
 
         <div class="category-nav">
             <div>
-                <button class="active" onclick="filterByCategory('all')">📦 全部商品</button>
-                <button onclick="filterByCategory('twg-tea')">🍵 TWG 經典茶品</button>
-                <button onclick="filterByCategory('twg-dessert')">🍬 TWG 特色商品</button>
-                <button onclick="filterByCategory('noodles')">🍜 泡麵系列</button>
-                <button onclick="filterByCategory('snacks')">🍪 零食系列</button>
-                <button onclick="filterByCategory('condiments')">🍯 亞坤醬 & 松發肉骨茶包</button>
-                <button onclick="filterByCategory('coffee')">☕ Kims Duet咖啡</button>
+                <button class="active" onclick="filterByCategory('all')">全部商品</button>
+                <button onclick="filterByCategory('twg-tea')">TWG 經典茶品</button>
+                <button onclick="filterByCategory('twg-dessert')">TWG 特色商品</button>
+                <button onclick="filterByCategory('noodles')">泡麵系列</button>
+                <button onclick="filterByCategory('snacks')">零食系列</button>
+                <button onclick="filterByCategory('condiments')">亞坤醬 & 松發肉骨茶包</button>
+                <button onclick="filterByCategory('coffee')">Kims Duet咖啡</button>
             </div>
         </div>
 
